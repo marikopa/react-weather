@@ -5,6 +5,7 @@ import Humidity from "./Humidity";
 import Description from "./Description";
 import Wind from "./Wind";
 import City from "./City";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Linna nimi"
+                    placeholder="City"
                     id="search-text-input"
                     autocomplete="off"
                   />
@@ -30,7 +31,7 @@ export default function App() {
                       type="submit"
                       id="button-addon2"
                     >
-                      Otsi
+                      Search
                     </button>
                   </div>
                 </div>
@@ -44,13 +45,13 @@ export default function App() {
           <div className="row">
             <div className="col-6 d-flex align-items-center">
               <div className="d-flex weather-temperature">
-                <img
-                  src="http://openweathermap.org/img/wn/01d@2x.png"
-                  width="50px"
-                  alt=""
-                  id="icon"
-                  className="float-left"
+                <ReactAnimatedWeather
+                  icon="CLEAR_DAY"
+                  color="#FFBB33"
+                  size={48}
+                  animate={true}
                 />
+
                 <div className="float-left">
                   <Temperature />
                   <span className="units" /> ℃
@@ -82,7 +83,7 @@ export default function App() {
       </div>
       <div className="weather-forecast" id="forecast"></div>
       <small>
-        <a href="" target="blank">
+        <a href="https://github.com/marikopa/react-weather" target="blank">
           Github
         </a>{" "}
         Mariko Passel
