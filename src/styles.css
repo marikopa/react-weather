@@ -1,0 +1,113 @@
+.container {
+  padding: 20px;
+}
+.weather-app {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid;
+  border-color: rgb(185, 185, 202);
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+body {
+  background-color: #230341;
+}
+button {
+  display: block;
+  max-width: 20 px 10px;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #230341;
+  font-family: "Indie Flower", cursive;
+  padding: 10px;
+}
+h1 {
+  color: #230341;
+  font-family: "Indie Flower", cursive;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.city {
+  font-family: "Indie Flower", cursive;
+  text-transform: capitalize;
+}
+h2 {
+  color: #230341;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  padding-top: 20px;
+}
+h3 {
+  color: #230341;
+  font-family: "Indie Flower", cursive;
+  font-size: small;
+}
+h5 {
+  font-size: large;
+}
+.emoji {
+  font-size: 5.5em;
+}
+.card-title {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+.card {
+  background-image: linear-gradient(
+    -225deg,
+    #5271c4 0%,
+    #b19fff 48%,
+    #eca1fe 100%
+  );
+  max-width: 200px;
+}
+.form-control {
+  max-width: 300px;
+}
+
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  color: #230341;
+  font-family: "Indie Flower", cursive;
+}
+
+ul {
+  padding-top: 20px;
+}
+
+.Temperature {
+  color: #230341;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #230341;
+}
+
+.weather-forecast-temperature {
+  color: #230341;
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
