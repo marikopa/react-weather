@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Humidity() {
-  return 10;
+export default function Wind() {
+  return <div> 10 m/h </div>;
 }

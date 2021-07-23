@@ -23,7 +23,7 @@ export default function App() {
                     className="form-control"
                     placeholder="City"
                     id="search-text-input"
-                    autocomplete="off"
+                    autoComplete="off"
                   />
                   <div className="input-group-append">
                     <button
@@ -54,7 +54,6 @@ export default function App() {
 
                 <div className="float-left">
                   <Temperature />
-                  <span className="units" /> ℃
                 </div>
               </div>
             </div>
@@ -64,10 +63,10 @@ export default function App() {
                   <Description />
                 </li>
                 <li>
-                  humidity: <Humidity /> %
+                  humidity: <Humidity />
                 </li>
                 <li>
-                  wind: <Wind /> m/h
+                  wind: <Wind />
                 </li>
               </ul>
             </div>

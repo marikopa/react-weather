@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Humidity() {
-  return 60;
+  return <div> 60 % </div>;
 }
