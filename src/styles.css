@@ -8,21 +8,23 @@
   border: 1px solid;
   border-color: rgb(185, 185, 202);
   border-radius: 10px;
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 body {
-  background-color: #3b0f81;
+  background-color: #3d1283;
 }
 button {
   display: block;
   max-width: 20 px 10px;
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-  color: #230341;
+  background-image: linear-gradient(to left, #434343 0%, black 100%);
+
+  color: #eeec77;
   font-family: "Indie Flower", cursive;
   padding: 10px;
 }
 h1 {
-  color: #230341;
+  color: #eeec77;
   font-family: "Indie Flower", cursive;
   padding: 10px;
   text-transform: capitalize;
@@ -32,13 +34,13 @@ h1 {
   text-transform: capitalize;
 }
 h2 {
-  color: #230341;
+  color: #eeec77;
   font-family: "Indie Flower", cursive;
   font-size: 20px;
   padding-top: 20px;
 }
 h3 {
-  color: #230341;
+  color: #eeec77;
   font-family: "Indie Flower", cursive;
   font-size: small;
 }
@@ -73,7 +75,7 @@ h5 {
 
 li {
   list-style: none;
-  color: #230341;
+  color: #eeec77;
   font-family: "Indie Flower", cursive;
 }
 
@@ -82,10 +84,10 @@ ul {
 }
 
 .Temperature {
-  color: #230341;
-  font-size: 64px;
+  color: #eeec77;
+  font-size: 60px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .weather-temperature .units {
@@ -100,11 +102,11 @@ ul {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: #230341;
+  color: #eeec77;
 }
 
 .weather-forecast-temperature {
-  color: #230341;
+  color: #eeec77;
   font-size: 13px;
 }
 

@@ -6,6 +6,7 @@ import Description from "./Description";
 import Wind from "./Wind";
 import City from "./City";
 import ReactAnimatedWeather from "react-animated-weather";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
@@ -63,10 +64,10 @@ export default function App() {
                   <Description />
                 </li>
                 <li>
-                  humidity: <Humidity />
+                  <Humidity />
                 </li>
                 <li>
-                  wind: <Wind />
+                  <Wind />
                 </li>
               </ul>
             </div>
