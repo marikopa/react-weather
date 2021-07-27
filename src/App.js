@@ -51,6 +51,8 @@ export default function App() {
                   color="#FFBB33"
                   size={48}
                   animate={true}
+                  margin
+                  right={20}
                 />
 
                 <div className="float-left">
