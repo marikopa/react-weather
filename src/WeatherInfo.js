@@ -1,5 +1,5 @@
 import React from "react";
-import ReactAnimatedWeather from "react-animated-weather";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -8,14 +8,7 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6 d-flex align-items-center">
           <div className="d-flex weather-temperature">
-            <ReactAnimatedWeather
-              icon="CLEAR_DAY"
-              color="#FFBB33"
-              size={48}
-              animate={true}
-              margin
-              right={20}
-            />
+            <WeatherIcon code={props.data.icon} />
 
             <div className="float-left">
               {Math.round(props.data.temperature)} °C
