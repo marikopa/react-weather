@@ -3,6 +3,7 @@ import ReactAnimatedWeather from "react-animated-weather";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 import React, { useState } from "react";
+import TheDate from "./TheDate";
 
 export default function App() {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -12,7 +13,7 @@ export default function App() {
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      date: "Friday",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       wind: response.data.wind.speed,
       city: response.data.name,
@@ -24,7 +25,7 @@ export default function App() {
       <div className="App">
         <div className="container">
           <div className="weather-app">
-            <br /> {weatherData.date}
+            <br /> <TheDate date={weatherData.date} />
             <form id="search-form">
               <div className="row">
                 <div className="col">
@@ -70,8 +71,8 @@ export default function App() {
               <div className="col-6">
                 <ul>
                   <li>{weatherData.description}</li>
-                  <li>{weatherData.humidity}</li>
-                  <li>{weatherData.wind}</li>
+                  <li>Humidity {weatherData.humidity} % </li>
+                  <li>Wind {Math.round(weatherData.wind)}</li>
                 </ul>
               </div>
             </div>
