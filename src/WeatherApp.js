@@ -24,8 +24,7 @@ export default function WeatherApp(props) {
 
   function search() {
     const apiKey = "b05a1145e720875676132ce7411f570e";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=
-    ${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -40,7 +39,8 @@ export default function WeatherApp(props) {
   if (weatherData.ready) {
     return (
       <div className="weather-app">
-        <br /> <TheDate date={weatherData.date} />
+        <TheDate className="TheDate" date={weatherData.date} />
+        <br />
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col">

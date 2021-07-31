@@ -88,19 +88,21 @@ ul {
   font-size: 60px;
   line-height: 1;
   font-weight: 200;
+  margin-left: 10px;
 }
 
-.weather-temperature .units {
+.Units {
+  color: #eeec77;
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -30px;
 }
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
 }
 
-.weather-forecast-date {
+.TheDate {
   font-size: 16px;
   color: #eeec77;
 }
@@ -112,4 +114,9 @@ ul {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+.Thedate {
+  color: #eeec77;
+  font-family: "Indie Flower", cursive;
 }
