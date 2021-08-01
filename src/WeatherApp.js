@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 import TheDate from "./TheDate";
 import WeatherInfo from "./WeatherInfo";
-import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherApp(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
