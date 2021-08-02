@@ -22,7 +22,10 @@ export default function TheDate(props) {
   return (
     <div>
       {" "}
-      {day} {hours}:{minutes}{" "}
+      <h3>
+        {" "}
+        {day} {hours}:{minutes}{" "}
+      </h3>
     </div>
   );
 }

@@ -33,16 +33,11 @@ h1 {
   font-family: "Indie Flower", cursive;
   text-transform: capitalize;
 }
-h2 {
+h3 {
   color: #eeec77;
   font-family: "Indie Flower", cursive;
   font-size: 20px;
   padding-top: 20px;
-}
-h3 {
-  color: #eeec77;
-  font-family: "Indie Flower", cursive;
-  font-size: small;
 }
 
 .card-title {
