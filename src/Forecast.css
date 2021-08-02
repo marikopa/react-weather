@@ -5,3 +5,15 @@
   opacity: 0, 8;
   margin-left: 5px;
 }
+.Forecast-day {
+  color: #eeec77;
+  font-family: "Indie Flower", cursive;
+}
+.ForecastTemp-max {
+  color: #eeec77;
+  font-family: "Indie Flower", cursive;
+}
+.ForecastTemp-min {
+  color: #eeec77;
+  font-family: "Indie Flower", cursive;
+}
