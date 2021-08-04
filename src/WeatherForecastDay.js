@@ -14,7 +14,7 @@ export default function WeatherForecastDay(props) {
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
     let days = [
-      "Sontag",
+      "Sonntag",
       "Montag",
       "Dienstag",
       "Mittwoch",
