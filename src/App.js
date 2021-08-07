@@ -8,7 +8,8 @@ export default function App() {
       <div className="container">
         <WeatherApp defaultCity="Tartu" />
       </div>
-      <footer>
+      <div className="Footer">
+        This project was coded by Mariko Passel and is open-sourced on{" "}
         <a
           href="https://github.com/marikopa/react-weather"
           target="blank"
@@ -16,8 +17,8 @@ export default function App() {
         >
           Github
         </a>{" "}
-        Mariko Passel
-      </footer>
+        and hosted on Netlify
+      </div>
     </div>
   );
 }
